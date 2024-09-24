@@ -1,0 +1,20 @@
+meta {
+  name: CreateCollection
+  type: http
+  seq: 2
+}
+
+post {
+  url: http://localhost:8090/expenses
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "id": "4",
+    "title": "The Modern Sound of Betty Carter",
+    "amount": 120.00,
+    "DateTime": "2024-09-10 14:15:00"
+  }
+}

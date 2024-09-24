@@ -1,0 +1,9 @@
+{
+  "version": "1",
+  "name": "go-expense-manager-collections",
+  "type": "collection",
+  "ignore": [
+    "node_modules",
+    ".git"
+  ]
+}
